@@ -1,0 +1,27 @@
+{
+  "name": "random-tiling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cpx \"./index.html\" \"./dist\" | webpack",
+    "start": "webpack --watch"
+  },
+  "keywords": [],
+  "author": "Tim Watson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimWatsonNZ/EconomyModel/issues"
+  },
+  "homepage": "https://github.com/TimWatsonNZ/EconomyModel#readme",
+  "dependencies": {
+    "nodemon-webpack-plugin": "^4.1.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "devDependencies": {
+    "cpx": "^1.5.0"
+  }
+}
